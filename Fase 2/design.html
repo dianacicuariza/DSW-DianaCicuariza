@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Etiquetas Básicas de HTML, atributos y valores</h1>
+    
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Temas
+                <ul>
+                    <li><a href="#">Tema 1: Etiquetas Básicas de HTML</a></li>
+                    <li><a href="#">Tema 2: Atributos</a></li>
+                    <li><a href="#">Tema 3: Valores</a></li>
+                </ul>
+            </li>
+            <li>Recursos Digitales
+                <ul>
+                    <li><a href="#">Recurso 1</a></li>
+                    <li><a href="#">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li>Aprendizaje</li>
+            <li>Acerca de</li>
+        </ul>
+    </nav>
+<hr>
+<section>
+    <h3>Propósito:</h3>
+    <p>El propósito de este sitio es fomentar el aprendizaje acerca del tema de diseños de sitios web enfocado en el uso de Etiquetas Básicas de HTML, atributos y valores</p>
+<hr>
+    <article>CONTENIDO:
+        <h4>Etiquetas Básicas de HTML</h4>
+        <li>Etiquetas HTML más comunes:</li>
+        <img src="img/Etiquetas HTML.jpg" alt="">
+            <ul>Comentarios: Para escribir anotaciones que sirven para ayudar a la comprensión del código. Lo que se escribe dentro de esta etiqueta es ignorado por el navegador y no se muestra en la página.</ul>
+        <li>Formato de textos</li>
+            <ul>b: Aplica negrita al texto incluido entre las etiquetas (es equivalente usar strong)</ul>
+            <ul>i: Aplica cursiva al texto incluido entre las etiquetas (es equivalente usar em)</ul>
+            <ul>u: Aplica subrayado</ul>
+            <ul>Font: Delimita un texto con un formato de fuente determinado definido por sus propiedades:</ul>
+            <ul><ul>font size=”X”>: Indica el tamaño del texto.</ul></ul>
+            <ul><ul>font color=”#RRGGBB”: Define el color del texto, donde cada letra RRGGBB es un valor hexadecimal (de 0 a F) que indica el color.</ul></ul>
+            <ul><ul>font face=”arial”: Determina el tipo de fuente de texto, es decir, la tipografía.</ul></ul>
+            <ul>La etiqueta font puede incluir los tres parámetros (tamaño, fuente y color): font size=X color=#XXYYZZ face=fuente escogida</ul>
+            <ul>h1, h2, h3, h4, h5, h6: Indican 6 niveles de formato de encabezados, en los que h1.../h1 delimitaría el tipo de fuente de mayor tamaño.</ul>
+        <li>Formato de Párrafos</li>
+            <ul>br: Introduce un salto de línea. </ul>
+            <ul>p: Delimita un párrafo de texto.</ul>
+            <ul><ul>p align=’center’: Texto del párrafo con alineación centrada. </ul></ul>
+            <ul><ul>p align=’left’: Párrafo alineado a la izquierda.</ul></ul>
+            <ul><ul>p align=’right’: Párrafo alineado a la derecha. </ul></ul>
+            <ul><ul>p align=’justify’: Texto del párrafo con alineación justificada.</ul></ul>
+            <ul>hr: Inserta una línea horizontal.</ul>
+            <ul>div: Se utiliza para delimitar una sección dentro del documento, de forma que agrupe un número de elementos para luego añadirle un estilo determinado o realizar operaciones sobre ese bloque específico.</ul>
+        <li>Creación de Listas</li>
+            <ul>Lista no numerada</ul>
+            <ul><ul>ul: Inicio de la lista</ul></ul>
+            <ul><ul>li: Primer elemento de la lista</ul></ul>
+            <ul>Lista numerada</ul>
+            <ul><ul>ol: Inicio de la lista</ul></ul>
+            <ul><ul>li: Primer elemento de la lista</ul></ul>
+        <li>Imágenes</li>
+            <ul>img src="dirección de la imagen": Inserta una imagen que se encuentra en la ruta indicada por "dirección de la imagen". También se pueden incluir una serie de propiedades:</ul>
+            <ul><ul>img ... border="X": Establece un borde de X pixels en torno a la imagen</ul></ul>
+            <ul><ul>img ... height="XX" width="YY": Establece un tamaño de la imagen, donde XX e YY son al altura y anchura en pixels respectivamente.</ul></ul>
+            <ul><ul>img ... alt="texto explicativo": Se muestra un texto al pasar el ratón sobre la imagen.</ul></ul>
+            <ul><ul>img ... align="bottom": Alineación inferior de la imagen respecto al texto.</ul></ul>
+            <ul><ul>img ... align="middle": Alineación de la imagen en medio del texto.</ul></ul>
+            <ul><ul>img ... align="top": Alineación superior de la imagen respecto al texto.</ul></ul>
+            <ul><ul>img ... align="left": Alineación izquierda de la imagen en el párrafo.</ul></ul>
+            <ul><ul>img ... align="right": Alineación derecha de la imagen en el párrafo.</ul></ul>
+            <ul><ul>img ... hspace="x": Espacio horizontal en pixeles entre la imagen y el texto.</ul></ul>
+            <ul><ul>img ... vspace="y": Espacio vertical en pixeles entre la imagen y el texto.</ul></ul>
+        <li>Tablas</li>
+            <ul>table: Define dónde comienza y termina la tabla.</ul>
+            <ul><ul>table width="X": Determina la anchura de la tabla. Puede darse en píxeles o en porcentaje.</ul></ul>
+            <ul><ul>table height="X" Determina la altura de la tabla en píxeles.</ul></ul>
+            <ul><ul>table border="X": Establece el grosor en píxeles del borde de la tabla</ul></ul>
+            <ul><ul>table cellspacing="X": Define el espacio en píxeles entre las celdas.</ul></ul>
+            <ul><ul>table cellpadding="X": Define el espacio en píxeles entre el borde y el texto.</ul></ul>
+            <ul>tr: Indica el comienzo y el fin de cada una de las filas de la tabla.</ul>
+            <ul>td: Indica el comienzo y el fin de cada una de las columnas o celdas dentro de las filas.</ul>
+        <li>Creación de Enlaces</li>
+            <ul>a href=”http://www.ejemplo.com”>Nombre del enlace: Cuando se pulsa sobre el texto "Nombre del enlace" en la web, se va al vínculo indicado en la dirección de href.</ul>
+            <ul>a href=”mailto:ejemplo@ejemplo.com”>Nombre del enlace: Cuando se pulsa sobre el texto "Nombre del enlace" en la web, se abre una ventana para enviar un correo electrónico a la dirección indicada.</ul>
+        <li>Página con Marcos (Frames)</li>
+        <p>Este tipo de páginas no llevan etiquetas <body>, sino que se utilizan los marcos o frames. En primer lugar se define un frameset o contenedor y dentro se incluyen los distintos frames, que subdividen la página en marcos. Cada frame corresponderá a un archivo html que deberá ser programado aparte con el contenido correspondiente.</p>
+            <ul>frameset:</ul>
+            <ul><ul>frameset rows=" , ">: Divide la página en marcos horizontales.</ul></ul>
+            <ul><ul>frameborder="NO": Evita que se vea el borde entre los marcos.</ul></ul>
+            <ul><ul>framespacing="X": Establece X pixels de separación entre los marcos.</ul></ul>
+            <ul><ul>scrolling="NO": Evita que aparezca una barra de scroll dentro del marco.</ul></ul>
+            <ul><ul>scrolling="auto": Mostrará la barra de scroll sólo si es necesario.</ul></ul>
+
+        <li>Formularios</li>
+            <p>Un formulario es una sección dentro de un documento HTML que sirve para que los usuarios introduzcan una serie de datos y los envíen a un servidor web o a un servidor de correo. Las etiquetas que se usan principalmente en los formularios HTML son:</p>
+            <ul>form: Indican el comienzo y el fin del formulario.</ul>
+            <ul>label: Delimitan una etiqueta de texto dentro del formulario.</ul>
+            <ul>input: Indican el principio y final de algún control de entrada de datos por parte del usuario. Pueden ser de varios tipos, según se defina su atributo type:</ul>
+            <ul><ul>text: Entrada de texto.</ul></ul>
+            <ul><ul>password: Igual que text pero el texto introducido se presentan de tal modo que se oculten los caracteres, normalmente mediante un serie de asteriscos. Este tipo de control suele utilizarse para introducir contraseñas.</ul></ul>
+            <ul><ul>checkbox: Casilla de verificación o checkbox.</ul></ul>
+            <ul><ul>radio: Elemento de selección entre varias opciones de tipo radio.</ul></ul>
+            <ul><ul>submit: Botón para enviar el formulario.</ul></ul>
+            <ul><ul>image: Botón para enviar el formulario pero con una imagen de fondo.</ul></ul>
+            <ul><ul>reset: Botón para borrar todo el contenido de datos del formulario.</ul></ul>
+            <ul><ul>hidden: campo oculto, envía una información que no se muestra en el formulario.</ul></ul>
+            <ul><ul>file: Permite adjuntar un archivo desde el ordenador.</ul></ul>
+            <ul>select: Delimita el principio y el fin de una lista desplegable de opciones. Cada opción se indica mediante la etiqueta <option>.</ul>
+            <ul>textarea: Permite introducir un texto largo.</ul>
+
+        <br><h4>Atributos HTML</h4>
+        <img src="img/Atributos.jpg" alt="">
+            <p>Los atributos en HTML se pueden considerar como información adicional que se coloca siempre en la etiqueta de apertura, esto para añadir, complementar información o significado al elemento HTML al que estamos colocando, van siempre dentro de la etiqueta de apertura y sirven para modificar o agregar alguna característica al contenido.</p>
+            <li>Lista de los atributos más usados en HTML:</li>
+            <ul>Id =” ”: Para identificar un elemento único.</ul>
+            <ul>class =” ”: Identificador múltiple.</ul>
+            <ul>align =” ”: Alineación de contenido.</ul>
+            <ul>border =” ”: Para darle borde al contenido.</ul>
+            <ul>style =” ”: Para darle un estilo al contenido.</ul>
+            <ul>background-color =” ”: Para color de fondo.</ul>
+            <ul>href =” ”: Para enlaces html.</ul>
+            <ul>height =” ”: Para determinar altura.</ul>
+            <ul>width =” ”: Para determinar ancho.</ul>
+            <ul>src=“ ”: Para imágenes.</ul>
+            <p>Un atributo se escribe de la siguiente manera: Atributo=“valor”  en esa forma, el nombre del atributo, seguido del signo igual (=) y entre comillas el valor, todo esto siempre dentro de la etiqueta de apertura.</p>
+            <ul></ul>
+    
+        <h4>Valores HTML</h4>
+        <img src="img/Valor.png" alt="">
+        <p>Los valores son complementos de los atributos ya que cuando se hace uso de un atributo HTML se debe especificar su valor, este puede representar una cantidad exacta, característica especifica o simplemente en que medida se ejecutará dicho atributo.
+
+            El valor se expresa entre comillas después del signo de (=), de acuerdo al atributo, pueden haber una variedad de valores disponibles.</p><br>
+            <li>Por ejemplo, en caso dealign puede tomar el valor de center (centro), right (derecha), left (izquierda), justify (justificado).</li>
+
+    </article>
+    <hr>
+    <h4>Referencias:</h4><br>
+    <li>Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). Recuperado de <a href="#">https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</a></li>
+    <li>i Saltiveri, T. G. (2012). Diseño de sistemas interactivos centrados en el usuario. Editorial UOC. (Pág. 211 a 264). Recuperado de <a href="#">https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56326?page=212</a> </li><br>
+</section>
+<hr>
+<h4>Contacto:</h4>
+<footer>CORREO: dmcicuarizat@unadvirtual.com
+    <br>SKYPE: Dianita Trujillo
+    <br>FECHA DE ACTUALIZACION:28 Junio 2021<br></footer>
+<hr>
+<h4>MOCKUP</h4><br>
+<img src="img/Mockup.png" alt=""><br>
+
+<hr>
+<br><br><br>
+</body>
+</html>
