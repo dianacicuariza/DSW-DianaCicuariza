@@ -9,7 +9,7 @@ nav{
     
 }
 footer{
-    background-color: black;
+    background-color: rgb(8, 20, 133);
     color: blanchedalmond;
     padding: 20px;
     text-align: center;
@@ -36,7 +36,7 @@ section{
 }
 aside{
     grid-column: 3/4;
-    background-color: lightcoral;
+    background-color: rgb(56, 100, 136);
     padding: 20px;
 }
 
