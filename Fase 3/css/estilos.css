@@ -16,11 +16,8 @@ footer{
 }
 header{
     background-color:white;
-       /* Enable flex mode. */
        display: flex;
-       /* Spread out the elements inside the header. */
        justify-content: space-between;
-       /* Align items vertically in the center. */
        align-items: center;
 }
 
@@ -30,17 +27,16 @@ div{
 }
 section{
     grid-column: 1/3;
-    background-color: rgb(128, 105, 105);
-    color: rgb(12, 12, 12);
+    background-color: rgb(131, 115, 115);
+    color: rgb(92, 78, 78);
     padding: 3em;
 }
 aside{
     grid-column: 3/4;
-    background-color: rgb(38, 48, 32);
+    background-color: rgb(37, 48, 31);
     padding: 20px;
 }
 
-/* MENU */
 
 .menu-area a {
     display: flex;
@@ -53,7 +49,7 @@ aside{
 }
 
 .menu-area a:hover {
-    background: rgb(235, 230, 230);
+    background: rgb(221, 214, 214);
     color: #fff;
 
 }
