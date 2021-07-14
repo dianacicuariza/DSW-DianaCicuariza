@@ -21,21 +21,21 @@
             <li> <a href="index.html">Inicio</a> </li>
             <li><a href="#">Temas</a>
                 <ul class="dropdown-1">
-                    <li><a href="tema1.html">Tema 1: Etiquetas Básicas de HTML</a></li>
-                    <li><a href="#">Tema 2: Atributos</a></li>
-                    <li><a href="#">Tema 3: Valores</a></li>
+                    <li><a href="tema1-etiquetas.html">Tema 1: Etiquetas Básicas de HTML</a></li>
+                    <li><a href="tema2-atributos.html">Tema 2: Atributos</a></li>
+                    <li><a href="tema3-valores.html">Tema 3: Valores</a></li>
                 </ul>
             </li>
             <li><a href="#">Recursos Digitales</a>
                 <ul class="dropdown-1">
                     <li> <a href="recurso1.html">Recurso 1 - Video 1</a> </li>
-                    <li><a href="#">Recurso 2 - Video 2</a></li>
+                    <li><a href="recurso2.html">Recurso 2 - Video 2</a></li>
                 </ul>                
             </li>
             <li><a href="#">Aprendizaje</a>
                 <ul class="dropdown-1">
-                    <li> <a href="#">Aprendizaje 1</a> </li>
-                    <li><a href="#">Aprendizaje 2</a></li>
+                    <li> <a href="aprendizaje1.html">Aprendizaje 1</a> </li>
+                    <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
                 </ul>                
             </li>
             <li><a href="#">Autor</a>
@@ -47,32 +47,39 @@
     </nav>
     <div>
         <section> 
-            <h3>Propósito:</h3><br>
-            <p> El propósito de este sitio es fomentar el aprendizaje acerca del tema de diseños de sitios web enfocado en el uso de Etiquetas Básicas de HTML, atributos y valores de diseño de sitios web, tomando en cuenta algunos de las siguientes tres técnicas: float, flex box o CSS Grid.
+            <h2>CONCEPTO HTML</h2><br>
+            <p> HTML se basa en principalmente en etiquetas, que son como instrucciones para dar formato a las diferentes partes de una página web.<br>
+            
+            Por ejemplo, mediante el uso de las etiquetas HTML puedes subrayar textos, ponerlos en negrita, establecer encabezados, estructurar el texto en guiones, en párrafos, añadir imágenes y vínculos a otras páginas, etc. De ahí que el conocimiento de estas etiquetas sea importante para hacer páginas web, mejor dicho imprescindible.
             </p><br>
+            <h2>¿Qué es una etiqueta HTML?</h2><BR>
+            <P>HTML es un markup language, lo que significa que está escrito con códigos que puede leer una persona sin que sea necesario compilarlo primero. En otras palabras, el texto en una página web está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto. Estas etiquetas de marcado son las propias etiquetas HTML.<br> Cuando escribes código en HTML, estás escribiendo etiquetas HTML. Todas las etiquetas HTML están hechas con un número de partes específicas, incluyendo:<br>
+            <li>El carácter “menor que <” </li><br>
+            <li>Una palabra o carácter que determina qué etiqueta se está escribiendo</li><br>
+            <li>Cualquier número de atributos HTML que se quiera usar, escritos de la forma nombre=”valor”</li><br>
+            <li>El carácter “mayor que >”</li><br>
+            </P>
 
-        <article>
-            <h4>Float:</h4><br>
-            <p>El float es un tipo de datos que se usa para números decimales
-
-                Float: es un tipo de dato utilizado en programación, este tipo de datos corresponde a decimales, existe float y float con doble precisión de acuerdo a los decimales que se toman en cuenta. Otros tipos de datos son: caracter, cadena de caracterer, entero, arreglos (vectore), entre otros.
-                
-                El tipo de dato se indica en algunos lenguajes de programación al inicio del mismo, en la declaración de variables y es fundamental para le ejecución de este.
+        <article><br>
+            <h2>Etiquetas Básicas De HTML</h2><br>
+            <p>html: indica el comienzo del documento HTML.<br>
+                <li>head: indica que empieza la cabecera de la página. En ella se suele poner el título (title) de la web, una descripción y otras informaciones relacionadas con el contenido de la página.</li><br>
+                <li>body: es el cuerpo de la página, donde va lo que se ve en el navegador al cargar una web. En el body van los textos, las imágenes y todos los contenidos de la web.</li><br>
+                <li>h1, h2, etc.: son los títulos o encabezados. Se utilizan para establecer determinados textos de la página como titulares, suelen tener un tamaño de fuente mayor para diferenciarlos del resto del texto. Son importantes en el posicionamiento en buscadores.</li><br>
+                <li>a: define los enlaces.</li><br>
+                <li>table: es una tabla, y dentro de esta tenemos filas tr y celdas td.</li><br>
+                <li>p: el texto dentro de esta etiqueta forma un párrafo.</li><br>
+                <li>img: imágenes.</li><br>
+                <li>ul: los textos dentro de esta etiqueta se estructuran en listas. Mediante el uso de li definimos cada guión dentro de la lista, y usando ol en lugar de ul tendremos listas ordenadas.</li><br>
+                <li>b y strong: se utilizan para resaltar el texto.</li><br>
+                <li>u: texto subrayado.</li><br>
+                <li>i y em: texto en cursiva.</li><br>
               </p><br>
-              <img src="img/Float.png" width="480" height="300"><br>
+              <h2>Sintaxis de XHTML</h2><br>
+              <p>HTML tiene una sintaxis muy sencilla y fácil de comprender, el contenido está estructurado en elementos, los cuales son declarados mediante el uso de etiquetas que proporcionan información adicional através de atributos. <br> Por su parte XHTML es una versión mejorada de HTML, por lo que busca tener una sintaxis más estricta que las versiones anteriores de este lenguaje de marcado y tiene menos tolerancia ante errores de mal uso de etiquetas. Si seguimos una correcta codificación no tendremos ningún problema y obtendremos todos los beneficios del lenguaje. <br> La regla básica para la estructuración de xHTML es saber utilizar de manera correcta cada parte de un elemento, tener conocimiento de la función que cumple cada pedazo de código y qué clase de contenido albergará.<br>
 
-            <h4>CSS Grid:</h4><br>            
-            <p>
-                Grid es uno de los nuevos valores de HTML5 que podemos dar a la propiedad display de un elemento, y que nos permite maquetar las páginas web de una manera mucho más fácil que se hacía con la forma tradicional.
-                Con Grid hacemos que un elemento contenga la propiedad display:grid, lo que nos permitirá maquetar de una forma mucho más fácil y potente que con cualquier otro tipo de propiedades. Esto es así porque, al contrario que en otras formas de maquetación, en Grid podemos establecer tanto las filas como las columnas que va a tener el diseño, maquetación o layout, además no sólo en una dimensión, como con Flexbox, sino que vamos a poder especificar la estructura en dos dimensiones.
-            </p><br>
-            <img src="img/CSS Grid.png" width="480" height="300"><br>
-
-            <h4> Flexbox:</h4><br>
-            <p>
-                Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace diseño responsive, evitando así el uso de float, escribiendo menos código y facilitando el posicionamiento de elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox es poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el espacio del que disponemos.
-            </p><br>
-            <img src="img/Flexbox.jpg" width="430" height="250">
+              </p><br>
+              <img src="img/Etiquetas.PNG" width="480" height="300"><br>
 
         </article>
 

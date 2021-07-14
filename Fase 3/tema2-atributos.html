@@ -21,21 +21,21 @@
             <li> <a href="index.html">Inicio</a> </li>
             <li><a href="#">Temas</a>
                 <ul class="dropdown-1">
-                    <li><a href="tema1.html">Tema 1: Etiquetas Básicas de HTML</a></li>
-                    <li><a href="#">Tema 2: Atributos</a></li>
-                    <li><a href="#">Tema 3: Valores</a></li>
+                    <li><a href="tema1-etiquetas.html">Tema 1: Etiquetas Básicas de HTML</a></li>
+                    <li><a href="tema2-atributos.html">Tema 2: Atributos</a></li>
+                    <li><a href="tema3-valores.html">Tema 3: Valores</a></li>
                 </ul>
             </li>
             <li><a href="#">Recursos Digitales</a>
                 <ul class="dropdown-1">
                     <li> <a href="recurso1.html">Recurso 1 - Video 1</a> </li>
-                    <li><a href="#">Recurso 2 - Video 2</a></li>
+                    <li><a href="recurso2.html">Recurso 2 - Video 2</a></li>
                 </ul>                
             </li>
             <li><a href="#">Aprendizaje</a>
                 <ul class="dropdown-1">
-                    <li> <a href="#">Aprendizaje 1</a> </li>
-                    <li><a href="#">Aprendizaje 2</a></li>
+                    <li> <a href="aprendizaje1.html">Aprendizaje 1</a> </li>
+                    <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
                 </ul>                
             </li>
             <li><a href="#">Autor</a>
@@ -47,32 +47,34 @@
     </nav>
     <div>
         <section> 
-            <h3>Propósito:</h3><br>
-            <p> El propósito de este sitio es fomentar el aprendizaje acerca del tema de diseños de sitios web enfocado en el uso de Etiquetas Básicas de HTML, atributos y valores de diseño de sitios web, tomando en cuenta algunos de las siguientes tres técnicas: float, flex box o CSS Grid.
-            </p><br>
+            <h2>Atributos HTML</h2><br>
+            <p>Un atributo HTML es un modificador de un tipo de elemento HTML. Un atributo o bien modifica la funcionalidad predeterminada de un tipo de elemento o proporciona funcionalidad para determinados tipos de elementos que no pueden funcionar correctamente sin ellos. En la sintaxis HTML, se añade un atributo a una etiqueta de inicio HTML.
+            </P>
 
-        <article>
-            <h4>Float:</h4><br>
-            <p>El float es un tipo de datos que se usa para números decimales
-
-                Float: es un tipo de dato utilizado en programación, este tipo de datos corresponde a decimales, existe float y float con doble precisión de acuerdo a los decimales que se toman en cuenta. Otros tipos de datos son: caracter, cadena de caracterer, entero, arreglos (vectore), entre otros.
+        <article><br>
+            <h2>Descripción Atributos HTML</h2><br>
+            <p>Atributos HTML en general, aparecen como pares de nombre-valor, separados por =, y se escriben dentro de la etiqueta inicial de un elemento, después del nombre del elemento:
+                <li>tag attribute="value">content to be modified by the tagtag></li>
+                Cuando los nombres de etiqueta el tipo de elemento HTML, y el atributo es el nombre del atributo, establecido en el valor proporcionado. El valor puede estar entre comillas simples o dobles, aunque los valores que constan de ciertos caracteres se pueden dejar sin comillas en HTML (pero no XHTML) .Leaving valores de atributos sin comillas es considerado inseguro.
                 
-                El tipo de dato se indica en algunos lenguajes de programación al inicio del mismo, en la declaración de variables y es fundamental para le ejecución de este.
+                Aunque la mayoría de los atributos se proporcionan como nombres y valores apareados, algunos afectan al elemento simplemente por su presencia en la etiqueta de inicio del elemento (como el atributo ismap para el elemento img). 
+                
+                La mayoría de los elementos pueden tomar cualquiera de varios atributos comunes:
+                
+                <li>El atributo id proporciona un identificador único en todo el documento para un element.This se puede utilizar como selector CSS para proporcionar propiedades de presentación, por los navegadores para centrar la atención en el elemento específico, o mediante secuencias de comandos para modificar el contenido o la presentación de un elemento. Añade a la URL de la página, la URL se dirige directamente el elemento específico dentro del documento, típicamente un sub-sección de la página. Por ejemplo, el ID "atributos".</li>
+                <li>El atributo de clase proporciona una forma de clasificar elementos similares. Esto puede ser usado para los propósitos semánticas, o con fines de presentación. Semánticamente, por ejemplo, las clases se utilizan en microformatos. Presentationally, por ejemplo, un documento HTML puede utilizar la clase designación = "notación" para indicar que todos los elementos con este valor de clase están subordinadas al texto principal del documento. Esos elementos podrían ser reunidos y presentados como notas al pie de una página en lugar de aparecer en el lugar en el que se producen en el código HTML. Otro uso sería la presentación como un selector CSS.</li>
+                <li>Un autor puede utilizar el estilo de códigos no attributal propiedades de presentación a un elemento en particular. Se considera una mejor práctica utilizar ID o la clase de un elemento atributos para seleccionar el elemento con una hoja de estilo, aunque a veces esto puede ser demasiado engorroso para un simple y específico o aplicación especial de propiedades de estilo.</li> <br>
+                
+                El atributo de título se utiliza para unir explicación subtextual a un elemento. En la mayoría de los navegadores de este atributo se muestra como lo que se refiere a menudo como ayuda.
+                
+                El elemento de abreviatura, abbr, se puede usar para demostrar estos diversos atributos:
+                <li>abbr id="anId" class="aClass" style="color:blue;" title="Hypertext Markup Language">HTML abbr></li>
+                Este ejemplo muestra como HTML; en la mayoría de los navegadores, apuntando el cursor en la abreviatura debe mostrar el texto del título "Hypertext Markup Language".
+                
+                La mayoría de los elementos también toman el lenguaje relacionado con los atributos lang y dir.
+
               </p><br>
-              <img src="img/Float.png" width="480" height="300"><br>
-
-            <h4>CSS Grid:</h4><br>            
-            <p>
-                Grid es uno de los nuevos valores de HTML5 que podemos dar a la propiedad display de un elemento, y que nos permite maquetar las páginas web de una manera mucho más fácil que se hacía con la forma tradicional.
-                Con Grid hacemos que un elemento contenga la propiedad display:grid, lo que nos permitirá maquetar de una forma mucho más fácil y potente que con cualquier otro tipo de propiedades. Esto es así porque, al contrario que en otras formas de maquetación, en Grid podemos establecer tanto las filas como las columnas que va a tener el diseño, maquetación o layout, además no sólo en una dimensión, como con Flexbox, sino que vamos a poder especificar la estructura en dos dimensiones.
-            </p><br>
-            <img src="img/CSS Grid.png" width="480" height="300"><br>
-
-            <h4> Flexbox:</h4><br>
-            <p>
-                Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace diseño responsive, evitando así el uso de float, escribiendo menos código y facilitando el posicionamiento de elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox es poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el espacio del que disponemos.
-            </p><br>
-            <img src="img/Flexbox.jpg" width="430" height="250">
+              <img src="img/atributo.png" width="480" height="300"><br>
 
         </article>
 
